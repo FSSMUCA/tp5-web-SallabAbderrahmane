@@ -1,0 +1,11 @@
+let x = "150";
+let y = 150;
+let z = true;
+let result = "";
+result += "x : " + typeof x + "<br>";
+result += "y : " + typeof y + "<br>";
+result += "z : " + typeof z + "<br>";
+result += "JavaScript est un langage à typage dynamique <br>";
+x = Number(x);
+result += "Nouveau type de x après conversion : " + typeof x + "<br>";
+document.getElementById("resultat_1").innerHTML = result;
